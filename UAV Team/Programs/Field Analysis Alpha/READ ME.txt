@@ -1,0 +1,17 @@
+======================================
+UAV IMAGING PROGRAM ALPHA STAGE
+======================================
+by Patrick Thavornkant
+
+
+This alpha takes an image of a crop field and modifies it's RGB color values. 
+
+A "bad crop" is considered to be a gray-white pixel amongst the crops in the field, therefore we search for those pixel values.
+I set it so that these pixel values are approximately read as (100, 100, 100) for RGB.
+
+This is a very preliminary program, and lacks many features. It likely will not run on your computer unless you modify the search path for images.
+
+
+Furthermore, it requires JAR files I have made mention of in the OpenCV Java commands text file on Box.
+
+This stage of the program is only being uploaded as a proof of work and so that those who want to see the code, can.
